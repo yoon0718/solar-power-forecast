@@ -3,7 +3,7 @@
 yoon0718(PL), Jssong-ho, raincross7, portk, azure0321
 
 ### 프로젝트 소개
-? / This project is Photovoltaic power generation prediction model
+햇살이따땃하 / This project is Photovoltaic power generation prediction model
 
 ### 주요 기능
 완료 후 업데이트 필요
@@ -22,6 +22,7 @@ yoon0718(PL), Jssong-ho, raincross7, portk, azure0321
 
 🪛**개발 환경 및 도구**
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
+<img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
 
 🕸️**웹 개발 및 프레임워크**
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
@@ -34,3 +35,6 @@ yoon0718(PL), Jssong-ho, raincross7, portk, azure0321
 <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 <img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 <img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
+
+⚛️**라이브러리**
+<img src="https://img.shields.io/badge/chartdotjs-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
