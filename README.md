@@ -30,7 +30,7 @@ yoon0718(PL), Jssong-ho, raincross7, portk, azure0321
 🌐**데이터베이스**
 <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">
 
-**데이터 분석 라이브러리**
+🔢**데이터 분석 라이브러리**
 <img src="https://img.shields.io/badge/scikitlearn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
 <img src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white">
 <img src="https://img.shields.io/badge/keras-D00000?style=for-the-badge&logo=keras&logoColor=white">
