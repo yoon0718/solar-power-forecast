@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.header_text{
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{background-color:#F8FAE5;}
+*{margin:0;
+  padding:0;}
+#icon{width:15vw;
+      height:10vh;}
+#title{height:10vh;
+      width:100%;
+      background-color:#43766C;
+      color:white;
+      text-align:center;
+      display:flex;
+      justify-content: center;
+      align-items: center;}
+/* #footer{background-color:#B19470;} */
+#koreamap{width:30vw;
+          height:80vh;
+          padding:5px;
+          margin-top:5vh;
+          margin-left:3vw;
+          border:solid 3px #43766C;
+          border-radius: 25px;
+          background-color: white;}
+
+path {
+      cursor: pointer;
+      transition: all 0.4s;
+    }
+          
+#busan{fill:#7dbc71;}
+#seoul{fill:#78b96c;}
+#gwangju{fill:#73b666;}
+#daegu{fill:#6eb461;}
+#daejeon{fill:#b0d6a9;}
+#gangwon{fill:#82be77;}
+#gyeonggi{fill:#b5d8ae;}
+#incheon{fill:#63ae56;}
+#jeju{fill:#abd3a3;}
+#north-chungcheong{fill:#a0ce98;}
+#north-gyeongsang{fill:#a6d19e;}
+#north-jeolla{fill:#9bcb93;}
+#sejong{fill:#5fab51;}
+#south-chungcheong{fill:#91c687;}
+#south-gyeongsang{fill:#8cc382;}
+#south-jeolla{fill:#87c17c;}
+#ulsan{fill:#69b15b;}
+          
+#busan:hover, #seoul:hover, #gwangju:hover, #daegu:hover, #daejeon:hover, #gangwon:hover, #gyeonggi:hover, #incheon:hover, 
+#jeju:hover, #north-chungcheong:hover, #north-gyeongsang:hover, #north-jeolla:hover, #sejong:hover, #south-chungcheong:hover, 
+#south-gyeongsang:hover, #south-jeolla:hover, #ulsan:hover{
+  fill:palegoldenrod;
+  }
+#date{width:8vw;}
+#cal{font-size:small;}
+.datediv{
+  position:relative;
+  bottom:8vh;
+  left: 15vw;
+}
