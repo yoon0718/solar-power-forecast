@@ -24,11 +24,11 @@ yoon0718(PL), Jssong-ho, raincross7, portk, azure0321
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
 <img src="https://img.shields.io/badge/anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white">
 
-🕸️**웹 개발 및 프레임워크**
+🕸️**Web development and Frameworks**
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 
-🌐**Web development and Frameworks**
+🌐**Databases**
 <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">
 
 🔢**Data analysis library**
