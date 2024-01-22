@@ -45,7 +45,7 @@ body{background-color:#F8FAE5;}
   padding:0;}
 #icon{width:15vw;
       height:10vh;}
-#title{height:10vh;
+#title{height:11vh;
       width:100%;
       background-color:#43766C;
       color:white;
@@ -53,21 +53,24 @@ body{background-color:#F8FAE5;}
       display:flex;
       justify-content: center;
       align-items: center;}
-/* #footer{background-color:#B19470;} */
+footer{background-color:#B19470;
+       height:14vh;}
+h5{font-weight:initial;}
+#path{font-size:medium;}
+#site{font-size:small;}
 #koreamap{width:30vw;
           height:80vh;
           padding:5px;
           margin-top:5vh;
           margin-left:3vw;
+          margin-bottom: 5vh;
           border:solid 3px #43766C;
           border-radius: 25px;
           background-color: white;}
-
 path {
       cursor: pointer;
       transition: all 0.4s;
     }
-          
 #busan{fill:#7dbc71;}
 #seoul{fill:#78b96c;}
 #gwangju{fill:#73b666;}
@@ -95,6 +98,6 @@ path {
 #cal{font-size:small;}
 .datediv{
   position:relative;
-  bottom:8vh;
+  bottom:11vh;
   left: 15vw;
 }
