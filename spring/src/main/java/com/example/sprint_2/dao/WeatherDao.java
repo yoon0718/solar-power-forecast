@@ -12,11 +12,8 @@ public class WeatherDao {
     @Autowired
     JdbcTemplate jt;
 
-    public List<Map<String, Object>> selectWeather(){
-        return jt.queryForList("SELECT * FROM weather_data");
-    }
-
     public List<Map<String, Object>> selectbyloc(String loc, String start, String end){
-        return jt.queryForList(String.format("SELECT * FROM weather_data Where LOC = '%s' AND TM BETWEEN %s AND %s", loc, start, end));
+        return jt.queryForList(String.format("SELECT * FROM mean_weather WHERE LOC = '%s' AND TM BETWEEN %s AND %s", loc, start, end));
     }
+    
 }

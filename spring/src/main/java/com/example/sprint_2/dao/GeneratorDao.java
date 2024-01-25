@@ -12,7 +12,21 @@ public class GeneratorDao {
     @Autowired
     JdbcTemplate jt;
 
-    public List<Map<String,Object>> select() {
-        return jt.queryForList("select * from generate_data");
+    public List<Map<String,Object>> select(
+        String loc,
+        String date
+    ) {
+        String start = date + "0000";
+        String end = date + "2300";
+        return jt.queryForList(String.format("select * from generate_data WHERE LOC = '%s' AND TM BETWEEN %s AND %s",loc,start,end));
+    }
+
+    public List<Map<String, Object>> selectMax(
+        String loc,
+        String date
+    ){
+        String start = date + "0000";
+        String end = date + "2300";
+        return jt.queryForList(String.format("select MAX(`value`) as Max from generate_data WHERE LOC = '%s' AND TM BETWEEN %s AND %s",loc,start,end));
     }
 }
