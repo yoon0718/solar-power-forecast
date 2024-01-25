@@ -25,12 +25,14 @@ SECRET_KEY = 'django-insecure-#n$@y=&4dzdfo*v5ka4q#8r0c9eyk2dj#0%#6-hnh%@1w)#23i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# host의 ip
 ALLOWED_HOSTS = ["10.10.21.86","localhost"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -127,3 +130,34 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#CORS 방지 설정들
+CORS_ALLOW_METHODS = (
+    "GET",
+    "POST",
+)
+
+CORS_ALLOW_CREDENTIALS=True
+CORS_ORIGIN_ALLOW_ALL=True
+
+CORS_ALLOW_HEADERS = (
+    'Accept',
+    'Accept-Encoding',
+    'Authorization',
+    'Content-Type',
+    'Dnt',
+    'Origin',
+    'User-Agent',
+    'x-csrftoken',
+    'x-requested-with',
+)
+
+# 아래 두 내용은 해당 주소에서의 cross-origin 접속을 허용한다는 내용이다.
+CORS_ORIGIN_WHITELIST =[
+    'http://10.10.21.87:3000'
+]
+CSRF_TRUSTED_ORIGINS =[
+    'http://10.10.21.87:3000'
+]
+APPEND_SLASH = True
+
