@@ -1,0 +1,43 @@
+#detail {
+  background-color: #f4f7fc;
+  width: 6vw;
+  border: solid 3px #86b6f6;
+  color: #86b6f6;
+}
+
+.modal {
+  width: 120vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.modal-content {
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  transform: translate(-50%, -40%);
+  background: #f4f7fc;
+  border: solid 3px #86b6f6;
+  padding: 14px 28px;
+  max-width: 600vw;
+  min-width: 30vw;
+  line-height: 150%;
+}
+
+a {
+  align-items: center;
+  text-align: center;
+}
