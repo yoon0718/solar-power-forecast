@@ -1,0 +1,2 @@
+data_analysis/xgb_models/*.json filter=lfs diff=lfs merge=lfs -text
+data_analysis/csv_files/*.csv filter=lfs diff=lfs merge=lfs -text
