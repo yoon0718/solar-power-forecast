@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Jua:400');
+
+* {
+  font-family: 'jua';
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-color: #f4f7fc; */
+}
+#icon {
+  width: 15vw;
+  height: 12vh;
+}
+
+footer {
+  background-color: #f8f0d7;
+  text-align: center;
+  padding: 5vh;
+}
+h5 {
+  font-weight: initial;
+}
+
+path {
+  cursor: pointer;
+  transition: all 0.4s;
+}
+#busan {
+  fill: #7dbc71;
+}
+#seoul {
+  fill: #78b96c;
+}
+#gwangju {
+  fill: #73b666;
+}
+#daegu {
+  fill: #6eb461;
+}
+#daejeon {
+  fill: #b0d6a9;
+}
+#gangwon {
+  fill: #82be77;
+}
+#gyeonggi {
+  fill: #b5d8ae;
+}
+#incheon {
+  fill: #63ae56;
+}
+#jeju {
+  fill: #abd3a3;
+}
+#north-chungcheong {
+  fill: #a0ce98;
+}
+#north-gyeongsang {
+  fill: #a6d19e;
+}
+#north-jeolla {
+  fill: #9bcb93;
+}
+#sejong {
+  fill: #5fab51;
+}
+#south-chungcheong {
+  fill: #91c687;
+}
+#south-gyeongsang {
+  fill: #8cc382;
+}
+#south-jeolla {
+  fill: #87c17c;
+}
+#ulsan {
+  fill: #69b15b;
+}
+
+#busan:hover,
+#seoul:hover,
+#gwangju:hover,
+#daegu:hover,
+#daejeon:hover,
+#gangwon:hover,
+#gyeonggi:hover,
+#incheon:hover,
+#jeju:hover,
+#north-chungcheong:hover,
+#north-gyeongsang:hover,
+#north-jeolla:hover,
+#sejong:hover,
+#south-chungcheong:hover,
+#south-gyeongsang:hover,
+#south-jeolla:hover,
+#ulsan:hover {
+  fill: #f8f0d7;
+}
+#date {
+  width: 9vw;
+  z-index: 1;
+}
+
+.datediv {
+  width: 30vw;
+  /* z-index: 1; */
+  height: 5vh;
+  margin-top: 3vh;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+}
+#title {
+  height: 20vh;
+  background-color: #4a87dd;
+  border-bottom: solid 3px #eaf2fd;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backpic {
+  position: relative;
+}
+
+.backpic video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  z-index: -1;
+}
+
+.BARChart {
+  display: flex;
+  width: 55vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  height: 76vh;
+  margin-left: 2vw;
+  /* box-shadow: 10px 10px 10px 1px rgb(214, 214, 214); */
+  padding-right: 1.5vw;
+  padding-top: 15vh;
+  background: #eef5ff;
+}
+
+.Table_content {
+  display: flex;
+  align-items: flex-start;
+}
+#koreamap {
+  width: 29vw;
+  height: 67.5vh;
+  padding: 10px;
+  margin-top: 3vh;
+  margin: 2vw;
+  border: solid 3px #86b6f6;
+  background-color: white;
+}
+.Atable {
+  margin-left: 4vw;
+  width: 28vw;
+  margin-bottom: 2vh;
+
+  /* box-shadow: 10px 10px 10px 1px rgb(214, 214, 214); */
+}
+
+.Btable {
+  width: 62.5vw;
+  margin-left: 3vw;
+  margin-bottom: 2vh;
+  /* box-shadow: 10px 10px 10px 1px rgb(214, 214, 214); */
+}
+.MapPicker {
+  border: solid 3px #86b6f6;
+  width: 15vw;
+  background-color: white;
+  height: 8vh;
+  margin-right: 1vw;
+  margin-left: 2vw;
+  margin-top: 3vh;
+}
+
+.MapPicker p {
+  margin-left: 1vw;
+  padding: 3px;
+  padding-top: 5px;
+  height: 2vh;
+}
+
+.MPM {
+  width: 35vw;
+  margin-left: 4vw;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  background: #eaf2fd;
+  /* box-shadow: 10px 10px 10px 1px rgb(214, 214, 214); */
+}
+.MD {
+  display: flex;
+  align-content: center;
+}
+
+* {
+  /* border: solid 1px black; */
+}
