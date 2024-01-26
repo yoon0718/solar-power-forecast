@@ -15,10 +15,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path
-from tensor_model.views import tensor_predict
 from XGB_model.views import xgb_predict
 
 urlpatterns = [
-    path('tensor/', tensor_predict),
     path('xgb/', xgb_predict)
 ]
